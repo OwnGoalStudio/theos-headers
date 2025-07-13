@@ -17,7 +17,7 @@
 - (void)setPreferenceValue:(id)value specifier:(PSSpecifier *)specifier;
 
 @property (nonatomic, retain) PSSpecifier *specifier;
-@property (nonatomic, retain) PSViewController *parentController;
+//@property (nonatomic, retain) PSViewController *parentController;
 @property (nonatomic, retain) PSViewController *rootController;
 
 - (void)suspend;
